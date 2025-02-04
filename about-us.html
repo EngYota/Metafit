@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Place favicon.png in the root directory -->
-    <!-- <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" /> -->
+    <link rel="shortcut icon" href="images/consult-img.png" type="image/x-icon" />
     <!-- Font Icons css -->
     <link rel="stylesheet" href="css/fontawesome.min.css">
     <!-- plugins css -->
@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="css/bootstrap-rtl.min.css">
     <!-- Responsive css -->
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
 </head>
 
 <body>
@@ -28,15 +29,15 @@
             <div class="header-top">
                 <div class="container">
                     <div class="row">
-                        <div class="col-xl-auto">
+                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
                             <ul class="element contact-info">
                                 <li class="contact-phone"><i class="fa-solid fa-door-open"></i>مفتوح 24/7</li>
                                 <li class="contact-map"><i class="fa-solid fa-map-location-dot"></i>القصيم، بريدة</li>
                                 <li class="contact-address"><i class="fa-solid fa-phone-flip"></i> 0582329999</li>
                             </ul>
                         </div>
-                        <div class="col-xl-auto ms-xl-auto">
-                            <div class="element">
+                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                            <div class="element element-icons">
                                 <ul class="styled-icons clearfix">
                                     <li><a class="social-link" href="https://www.facebook.com/metafit.sa"><i class="fa-brands fa-facebook-f"></i></a></li>
                                     <li><a class="social-link" href="https://x.com/metafitsa?mx=2"><img src="images/x.svg"/></a></li>
@@ -72,9 +73,20 @@
                         <div class="col-sm-auto">
                             <div class="header-icons">
                                 <ul class="left-icons">
-                                    <li><a class="cart-link" href="#"><i class="fa-solid fa-cart-shopping"></i>
+                                    <li><a class="cart-link Menu-toggle" href="#meta-cart"><i class="fa-solid fa-cart-shopping"></i>
                                             <span>0</span></a></li>
                                     <li><a class="profile-link" href="login.html"><i class="fa-solid fa-circle-user"></i></a>
+                                    </li>
+                                    <li>
+                                        <div class="mobile-menu-toggle d-xl-none">
+                                            <a href="#meta-mobile-menu" class="Menu-toggle">
+                                                <svg viewBox="0 0 800 600">
+                                                    <path d="M300,220 C300,220 520,220 540,220 C740,220 640,540 520,420 C440,340 300,200 300,200" id="top"></path>
+                                                    <path d="M300,320 L540,320" id="middle"></path>
+                                                    <path d="M300,210 C300,210 520,210 540,210 C740,210 640,530 520,410 C440,330 300,190 300,190" id="bottom" transform="translate(480, 320) scale(1, -1) translate(-480, -318) "></path>
+                                                </svg>
+                                            </a>
+                                        </div>
                                     </li>
                                 </ul>
                             </div>
@@ -83,6 +95,46 @@
                 </div>
             </div>
         </header>
+
+        
+                <!-- Mobile Menu Start -->
+    <div id="meta-mobile-menu" class="Metafit-header meta-mobile-menu">
+        <div class="meta-menu-inner ltn__scrollbar">
+            <div class="meta-menu-head">
+                <div class="site-logo">
+                    <a href="index.html"><img src="images/metafit-logo.png" alt="Logo"></a>
+                </div>
+                <button class="meta-close">×</button>
+            </div>
+            <div class="metafit-menu">
+                <ul id="main-nav" class="header-menu">
+                    <li class="active menu-item"><a href="index.html">الرئيسية</a></li>
+                    <li class="menu-item"><a href="about-us.html">عن ميتافيت</a> </li>
+                    <li class="menu-item"><a href="Services.html">خدماتنا</a></li>
+                    <li class="menu-item"><a href="membership.html">عضويتنا</a></li>
+                    <li class="menu-item"><a href="Consultations.html">الاستشارات</a></li>
+                    <li class="menu-item"> <a href="contact-us.html">اتصل بنا</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+     <!-- meta-Cart -->
+     <div id="meta-cart" class="Metafit-Cart">
+        <div class="meta-menu-inner ltn__scrollbar">
+            <div class="meta-menu-head">
+                <div class="cart-name">
+                    <h5>العضويات </h5>
+                </div>
+                <button class="meta-close">×</button>
+            </div>
+            <div class="metafit-cart-element">
+               <h6>ليس لديك أي اشتراك في الوقت الحالي.</h6>
+               <a href="membership.html">احصل على عضويتك</a>
+            </div>
+        </div>
+    </div>
+    <!-- Mobile Menu End -->
+    <div class="Metafit-overlay"></div>
         <!-- about-banner -->
         <section class="page-banner">
             <div class="overlay"></div>
@@ -94,7 +146,7 @@
         <section class="home-about about-page-sec">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-6 col-md-6 col-xs-12">
+                    <div class="col-lg-6 col-md-12 col-xs-12">
                         <div class="right-text">
                             <h4><i class="fa-solid fa-caret-left"></i> عن ميتافيت: أكثر من مجرد نادي رياضي</h4>
                             <h1>كيف نختلف؟ تجربة رياضية لا مثيل لها</h1>
@@ -105,7 +157,7 @@
                                 نفسك.</p>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-6 col-xs-12">
+                    <div class="col-lg-6 col-md-12 col-xs-12">
                         <div class="about-image-sec">
                             <img src="images/about-img.jpg" alt="" />
                         </div>
@@ -116,7 +168,7 @@
                     <p>ميتافيت تسعى لتكوين مجتمع رياضي وصحي متكامل، حيث نتعاون جميعًا لتحقيق التميز والنجاح في كل خطوة
                         نخطوها.</p>
                     <div class="row">
-                        <div class="col-lg-6 col-md-6 col-xs-12">
+                        <div class="col-lg-6 col-md-12 col-xs-12">
                             <div class="right-box">
                                 <i class="fa-solid fa-handshake-simple"></i>
                                 <h2>الرسالة</h2>
@@ -125,7 +177,7 @@
                                     البدنية وتعزيز صحتهم العامة، بفضل فريق محترف وخدمات ذات جودة عالية.</p>
                             </div>
                         </div>
-                        <div class="col-lg-6 col-md-6 col-xs-12">
+                        <div class="col-lg-6 col-md-12 col-xs-12">
                             <div class="right-box left-box">
                                 <i class="fa-solid fa-rug"></i>
                                 <h2>الرؤية</h2>
@@ -191,7 +243,7 @@
                             كامل لتحقيق نتائج متميزة في كل مرحلة. </p>
                     </div>
                     <div class="row">
-                        <div class="col-lg-6 col-md-6 col-xs-12">
+                        <div class="col-lg-6 col-md-12 col-xs-12">
                             <div class="discover-box box-one">
                                 <div class="overlay"></div>
                                 <i class="fa-solid fa-motorcycle"></i>
@@ -204,7 +256,7 @@
                                     احتياجاتك المخصصة.</h6>
                             </div>
                         </div>
-                        <div class="col-lg-6 col-md-6 col-xs-12">
+                        <div class="col-lg-6 col-md-12 col-xs-12">
                             <div class="discover-box box-two">
                                 <div class="overlay"></div>
                                 <i class="fa-solid fa-user-group"></i>
@@ -217,7 +269,7 @@
                                     لتحقيق أهدافك. </h6>
                             </div>
                         </div>
-                        <div class="col-lg-6 col-md-6 col-xs-12">
+                        <div class="col-lg-6 col-md-12 col-xs-12">
                             <div class="discover-box box-three">
                                 <div class="overlay"></div>
                                 <i class="fa-solid fa-motorcycle"></i>
@@ -230,7 +282,7 @@
                                     فعّالة.</h6>
                             </div>
                         </div>
-                        <div class="col-lg-6 col-md-6 col-xs-12">
+                        <div class="col-lg-6 col-md-12 col-xs-12">
                             <div class="discover-box box-four">
                                 <div class="overlay"></div>
                                 <i class="fa-solid fa-user-group"></i>
@@ -305,7 +357,7 @@
                                 <ul>
                                     <li><a href="contact-us.html"> اتصل بنا </a></li>
                                     <li><a href="privacy.html"> سياسة الخصوصية </a></li>
-                                    <li><a href="privacy.html"> الشروط والأحكام </a></li>
+                                    <li><a href="terms.html"> الشروط والأحكام </a></li>
                                     <li><a href="وثيقة-حماية-المستهلك.pdf"> وثيقة حماية المستهلك </a></li>
                                 </ul>
                             </div>
@@ -361,7 +413,30 @@
     <script src="js/popper.min.js"></script>
     <script src="js/jquery.appear.js"></script>
     <script src="js/wow.js"></script>
-    <script src="js/script.js"></script>
+    <script src="js/script.js">
+    </script>
+    <script>
+        function startCounting(elementId, start = 1, end = 1000, interval = 1000) {
+    let current = start;
+
+    const counterElement = document.getElementById(elementId);
+
+    const intervalId = setInterval(() => {
+        counterElement.textContent =  " +" + current ;
+        if (current >= end) {
+            clearInterval(intervalId);
+        } else {
+            current++;
+        }
+    }, interval);
+}
+
+// Call the function for the four counters
+startCounting('counter1', 1, 23, 30);
+startCounting('counter2', 1, 15, 30);
+startCounting('counter3', 1, 117, 10);
+startCounting('counter4', 1, 328, 10);
+    </script>
 </body>
 
 </html>

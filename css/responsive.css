@@ -1,0 +1,559 @@
+@media (max-width: 1024px) and (min-width: 769px) {
+    .footer .footer-widget h5 {
+        font-size: 20px;
+    }    
+    header#header .header-nav .site-brand img {
+        width: 180px;
+    }
+    header#header .header-nav #top-primary-nav{
+        display: block;
+        position: absolute;
+        right: auto;
+    }
+    header#header .header-nav .header-menu{
+        margin-right: 0;
+    }
+    header#header .header-nav .header-menu li{
+        margin-left: 20px;
+    }
+    header#header .header-nav .header-menu li a{
+        font-size: 19px;
+    }
+    header#header .header-nav .header-icons ul{
+        position: absolute;
+        left: 0;
+    }
+    .mobile-menu-toggle{
+        display: none;
+    }
+    .service-page-sec .right-text h1 {
+        font-size: 21px;
+        margin-bottom: 0;
+        line-height: 37px;
+    }
+    .service-page-sec .right-text p {
+        font-size: 16px;
+        line-height: 30px;
+        margin-top: 11px;
+    }
+    .home-about .right-text {
+        padding-bottom: 0px;
+    }
+    .about-discover-sec .discover .discover-box{
+        padding-top: 40px;
+        margin-top: 10px;
+        height: 340px;
+    }
+    .service-dis-sec .service-facilities {
+        padding-top: 50px;
+        margin-top: 40px;
+    }
+    .service-dis-sec .service-facilities .about-adv{
+        width: 220px;
+        margin-right: 0;
+    }
+    .service-dis-sec .service-facilities .about-adv h5{
+        font-size: 18px;
+    }
+    .home-join .join-right h2{
+        font-size: 17px;
+    }
+    .home-join .join-right img {
+        width: 80px;
+        margin-bottom: 14px;
+    }
+    .home-join .join-left .double-image{
+        width: 456px;
+        height: 292px;
+    }
+    .home-join .join-right p{
+        font-size: 19px;
+        line-height: 31px;
+        margin-bottom: 30px;
+    }
+    .home-join .join-right a{
+        padding: 15px 70px;
+    }
+    .membership-sec .member-box{
+        padding: 30px 5px 36px;;
+    }
+    .login-sec .panel-login .panel-heading a{
+        padding: 12px 70px;
+    }
+    .banner-section .banner-text h1{
+        font-size: 35px;
+    }
+    .home-about .right-text h1{
+        font-size: 25px;
+    }
+    .home-about .right-text p {
+        font-size: 17px;
+        line-height: 30px;
+        margin-bottom: 36px;
+    }
+    .home-about .about-adv{
+        width: 205px;
+        margin-right: 0;
+    }
+    .home-about .about-adv h5{
+        font-size: 18px;
+    }
+    .Contact-sec .about-adv {
+        width: 218px;
+    }
+    .Contact-sec .about-adv h5 {
+        font-size: 18px;
+    }
+    .Contact-sec .about-adv h6 {
+        font-size: 17px;
+    }
+    .Contact-sec .booking{
+        padding: 80px 10px 40px;
+    }
+    .consultation-sec .about-adv{
+        width: 235px;
+    }
+    .consultation-sec .booking{
+        margin: 36px 0 0;
+        padding: 50px 15px 40px;
+    }
+    .about-discover-sec .discover .discover-box i {
+        font-size: 35px;
+    margin-bottom: 18px;
+    }
+    .about-discover-sec .discover .discover-box h2{
+        font-size: 23px;
+        margin-bottom: 18px;
+    }
+    .about-discover-sec .discover .discover-box h6{
+        font-size: 16px;
+    }
+}
+@media (max-width: 768px) and (min-width: 426px) {
+    #top-primary-nav,
+    header#header .header-top .element li.contact-phone,
+    .home-join .join-left{
+        display: none;
+    }
+    header#header .header-icons{
+        width: 163px;
+        margin-right: 149%;
+    }   
+    .banner-section .banner-text h1{
+        font-size: 37px;
+    line-height: 1.5em;
+    }
+    .home-about .discover .discover-box{
+        padding-top: 55px;
+        padding-right: 15px;
+        height: 358px;
+    }
+    .home-goals{
+        padding-top: 60px;
+        height: 420px;
+    }
+    .home-goals .goals-box .box{
+        width: 92%;
+    }
+    .home-membership .right-box{
+        margin-bottom: 30px;
+    }
+    .home-membership .full-box{
+        padding-top: 55px;
+    }
+    .home-about,.about-discover-sec{
+        padding-top: 60px;
+    }
+    .home-about .right-text {
+        padding-bottom: 0px;
+    }
+    .about-vision{
+        padding: 30px 0;
+    }
+    .about-vision .right-box{
+        height: 270px;
+    }
+    .service-dis-sec .service-facilities .about-adv{
+        width: 218px;
+        margin-right: 0;
+        margin-top: 15px;
+    }
+    .service-dis-sec .service-facilities .about-adv h5{
+        font-size: 19px;
+    }
+    .membership-sec .member-box{
+        margin-top: 0;
+        padding: 40px 6px 50px;
+    }
+    .consultation-sec .about-adv{
+        width: 230px;
+        height: 135px;
+    }
+    .consultation-sec .about-adv h5, .Contact-sec .about-adv h5{
+        font-size: 19px;
+    }
+    .consultation-sec .booking{
+        margin: 50px 0 0;
+    padding: 43px 20px 40px;
+    }
+    .consultation-sec .booking .booking-form{padding: 0;}
+    .Contact-sec .about-adv{
+        width: 318px;
+    }
+    .Contact-sec .booking{
+        padding: 40px 10px 40px;
+    }
+    .Contact-sec .booking .booking-form{
+        padding: 0 15px;
+    }
+    .login-sec .panel-login {
+        width: 99%;
+    }
+}
+@media (max-width: 430px) and (min-width:321px) {
+    header#header .header-top .contact-info,
+    #top-primary-nav,
+    header#header .header-nav .header-menu{
+        display: none;
+    }
+    header#header .header-top .element{
+        margin-right: 50px;
+    }
+    header#header .header-nav .site-brand img{
+        width: 170px;
+        margin-top: 27px;
+    }
+    header#header .header-nav .header-icons{
+        display: block;
+        position: absolute;
+        left: 16px;
+        top: 48px;
+    }
+    header#header .header-nav .header-icons ul li a{
+        font-size: 30px;
+    }
+    .footer{
+        padding-top: 45px;
+    }
+    .footer .footer-widget{
+        margin-bottom: 15px;
+    }
+    .footer .footer-widget.clients{
+        padding-right: 0;
+    }
+    .home-about .right-text {
+        padding-bottom: 10px;
+    }
+    .home-about .right-text h4{
+        font-size: 20px;
+    }
+    .home-about .right-text h1{
+        font-size: 23px;
+    }
+    .about-vision{
+        padding: 50px 0;
+    }
+    .home-goals .goals-box{
+        padding: 28px 0;
+        height: 348px;
+    }
+    .about-goals .home-counter {
+        margin-top: 46px;
+        padding: 26px 0;
+    }
+    .about-discover-sec{padding-top: 50px;}
+    .about-goals{padding-top: 40px;}
+    .home-goals .goals-box .box{
+        width: 93%;
+    }
+    .about-enjoy .enjoy-box p,
+    .consultation-sec .booking .booking-form .form-control,
+    .Contact-sec .booking .booking-form .form-control
+    {width: 100%;}
+    .home-goals .goals-box h2{
+        font-size: 20px;
+    }
+    .about-discover-sec .discover{
+        padding-bottom: 45px;
+    }
+    .about-discover-sec .discover .discover-box{
+        padding-top: 25px;
+        margin-top: 10px;
+        padding-right: 10px;
+        height: 405px;
+    }
+    .about-discover-sec .discover .discover-box i{
+        text-align: center;
+    }
+    .about-enjoy .enjoy-box a{
+        padding: 11px 60px;
+    }
+    .about-enjoy .enjoy-box ul {
+        display: block;
+    }
+    .about-enjoy .enjoy-box ul li {
+        padding: 23px 0px 0px;
+    }
+    .about-discover-sec .discover .discover-box h6{
+        font-size: 17px;
+        padding-bottom: 17px;    
+    }
+    .about-discover-sec .discover .discover-box p{
+        margin-bottom: 18px;
+    }
+    .consultation-sec, .Contact-sec{
+        padding: 45px 0;
+    }
+    .consultation-sec .heading-title h2, .consultation-sec .booking h2, .Contact-sec .heading-title h2{
+        font-size: 23px;
+    }
+    .consultation-sec .heading-title p, .consultation-sec .booking p{
+        font-size: 18px;
+    }
+    .consultation-sec .about-adv, .Contact-sec .about-adv{
+        width: 380px;
+        margin-top: 20px;
+    }
+    .consultation-sec .booking{
+        margin: 35px 0 0;
+        padding: 40px 20px 40px;
+    }
+    .consultation-sec .booking .booking-form {
+        padding: 0 0px;
+        margin: 30px 0;
+    }
+    .consultation-sec .booking .booking-form button,
+    .Contact-sec .booking .booking-form button{
+        margin-right: 0;
+    }
+    .Contact-sec .meta-map iframe{
+        padding: 0 5px;
+    }
+    .Contact-sec .meta-map{
+        margin-top: 20px;
+    }
+    .Contact-sec .booking{
+        margin: 40px 0 0;
+        padding: 35px 15px 40px;
+    }
+    .Contact-sec .booking .booking-form {
+        padding: 0 0px;
+        margin: 30px 0;
+    }
+    .banner-section{
+        padding:50px 10px;
+    }
+    .banner-section .banner-text h1{
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+    .home-about{
+        padding-top: 50px;
+    }
+    .home-about .about-adv{
+        width: 100%;
+        margin-right: 0;
+    }
+    .home-about .discover{
+        padding-top: 50px;
+    }
+    .home-about .discover .discover-box{
+        margin-top: 35px;
+        padding-top: 50px;
+        height: 350px;
+    }
+    .home-goals{
+        padding-top: 50px;
+    }
+    .home-counter{
+        padding: 10px 0;
+        margin-top: 0;
+    }
+    .home-counter .count-box,
+    .home-membership .right-box h6{
+        margin-bottom: 15px;
+        font-size: 18px;
+    }
+    .home-membership{
+        padding: 40px 0;
+    }
+    .home-membership .right-box{
+        padding: 25px 14px;
+        margin-bottom: 20px;
+    }
+    .home-membership .full-box p ,
+    .login-sec .panel-login {
+        width: 100%;
+    }
+    .home-join{
+        padding: 35px 15px;
+        text-align: center;
+    }
+    .home-join .join-right,
+    .home-join .join-right p{text-align: center;}
+    .home-join .join-right a{
+        padding: 15px 66px;
+    }
+    .home-join .join-left{display: none;}
+    .login-sec{
+        padding: 50px 0;
+    }
+    .login-sec .panel-login .panel-heading ul {
+        padding-right: 12px;
+    }
+    .login-sec .panel-login .panel-heading li{
+        width: 100%;
+        margin-bottom: 31px;
+    }
+    .login-sec .panel-login .panel-heading a{
+        padding: 12px 44px;
+        font-size: 19px;
+    }
+    .login-sec .panel-login .panel-body label{
+        margin-bottom: 15px;
+        display:inline ;
+    }
+    .login-sec .panel-login .panel-body .forget-pass,
+    .privacy-box{
+        margin-right: 0px;
+    }
+    .login-sec .panel-login .panel-body button{
+        margin-top: 25px;
+    }
+    .membership-sec{
+        padding: 50px 0;
+    }
+    .membership-sec .heading-title h2{
+        font-size: 26px;
+    }
+    .membership-sec .member-box{
+        padding: 40px 10px 50px;
+        margin: 5px 0 30px;
+    }
+    .membership-sec .row {
+        margin: 0 25px;
+    }
+    .privacy-section, .terms-section{
+        padding: 30px 0;
+    }
+    .privacy-box ul {
+        display: block;
+        text-align: center;
+        padding-right: 10px;
+    }
+    .privacy-box ul li i{
+        margin-bottom: 10px;
+    }
+    .privacy-box h2{
+        padding-bottom: 10px;
+    }
+    .service-dis-sec .service-facilities{
+        margin-top: 0;
+    }
+    .about-discover-sec .discover .heading-title h2{
+        font-size: 22px;
+        line-height: 40px;
+    }
+    .service-dis-sec .service-facilities .about-adv{
+        width: 100%;
+        margin-right: 0;
+        margin-top: 10px;
+    }
+}
+
+@media (max-width :375px) and (min-width: 320px){
+    header#header .header-top .element {
+        margin-right: 31px;
+        float: none;
+    }
+    header#header .header-nav .site-brand img {
+        width: 135px;
+    }
+    header#header .header-nav .header-icons ul li a {
+        font-size: 22px;
+        padding-top: 4px;
+    }
+    .mobile-menu-toggle{
+        margin-right: 0;
+    }
+    .mobile-menu-toggle svg{
+        width: 60px;
+    }
+    .page-banner{
+        padding: 45px 0;
+    }
+    .home-about .right-text h4 {
+        font-size: 16px;
+    }
+    .home-about .right-text h1 {
+        font-size: 18px;
+    }
+    .about-page-sec .right-text p {
+        font-size: 14px;
+        line-height: 30px;
+    }
+    .about-vision .right-box{
+        padding: 27px 10px;
+        margin-top: 31px;
+    }
+    .about-vision .right-box h2 {
+        font-size: 22px;
+    }
+    .about-vision .right-box p {
+        font-size: 18px;
+    }
+    .about-discover-sec .discover .discover-box h2{
+        font-size: 24px;
+        margin-bottom: 8px;
+    }
+    .about-discover-sec .discover .discover-box p{
+        font-size: 17px;
+        margin-bottom: 15px;
+    }
+    .about-discover-sec .discover .discover-box h6 {
+        font-size: 15px;
+        padding-bottom: 19px;
+        line-height: 11px;
+    }
+    .about-enjoy .enjoy-box p, 
+    .consultation-sec .booking .booking-form .form-control, 
+    .Contact-sec .booking .booking-form .form-control {
+        width: 96%;
+    }
+    .banner-section .banner-text h4{
+        font-size: 18px;
+    }
+    .banner-section .banner-text h1,.home-join .join-right h2,
+    .home-join .join-right p,
+    .membership-sec .heading-title p {
+        font-size: 17px;
+    }
+    .home-about .right-text p {
+        font-size: 15px;
+        line-height: 28px;
+    }
+    .home-membership h1, .home-membership .right-box h2{
+        font-size: 18px;
+    }
+    .service-dis-sec .discover .discover-box h6.last {
+        margin-bottom: 26px;
+    }
+    .home-join .join-right a {
+        padding: 15px 27px;
+    }
+    .membership-sec .heading-title h2 {
+        font-size: 22px;
+    }
+    .consultation-sec .about-adv, .Contact-sec .about-adv {
+        width: 324px;
+        margin-top: 20px;
+    }
+    .login-sec .panel-login .panel-heading a {
+        padding: 12px 42px;
+        font-size: 15px;
+    }
+    .privacy-box p {
+        font-size: 15px;
+    }
+
+}

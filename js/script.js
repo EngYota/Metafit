@@ -1,24 +1,3 @@
-function startCounting(elementId, start = 1, end = 1000, interval = 1000) {
-    let current = start;
-
-    const counterElement = document.getElementById(elementId);
-
-    const intervalId = setInterval(() => {
-        counterElement.textContent =  " +" + current ;
-        if (current >= end) {
-            clearInterval(intervalId);
-        } else {
-            current++;
-        }
-    }, interval);
-}
-
-// Call the function for the four counters
-startCounting('counter1', 1, 23, 30);
-startCounting('counter2', 1, 15, 30);
-startCounting('counter3', 1, 117, 10);
-startCounting('counter4', 1, 328, 10);
-
 /* Whatsapp Chat Widget by www.bloggermix.com */
 $(document).on("click", "#send-it", function() {
     var a = document.getElementById("chat-input");
@@ -67,4 +46,55 @@ $(document).on("click", "#send-it", function() {
         .addClass("show")
         .removeClass("hide");
     });
+
+    (function($) {
+      "use strict";
+    
+        jQuery(document).ready(function(){
+          
+            /* --------------------------------------------------------
+                1. Variables
+            --------------------------------------------------------- */
+            var $window = $(window),
+            $body = $('body');
+    
+  
+    // Mobile-menu
+    (function () {
+      var $ltn__utilizeToggle = $('.Menu-toggle'),
+          $ltn__utilize = $('.Metafit-header'),
+          $ltn__utilizeOverlay = $('.Metafit-overlay'),
+          $mobileMenuToggle = $('.mobile-menu-toggle'),
+          $mobileCart = $('.Metafit-Cart');
+      $ltn__utilizeToggle.on('click', function (e) {
+          e.preventDefault();
+          var $this = $(this),
+              $target = $this.attr('href');
+          $body.addClass('ltn__utilize-open');
+          $($target).addClass('ltn__utilize-open');
+          $ltn__utilizeOverlay.fadeIn();
+          if ($this.parent().hasClass('mobile-menu-toggle')) {
+              $this.addClass('close');
+          }
+      });
+      $('.meta-close, .Metafit-overlay').on('click', function (e) {
+        e.preventDefault();
+        $body.removeClass('ltn__utilize-open');
+        $ltn__utilize.removeClass('ltn__utilize-open');
+        $ltn__utilizeOverlay.fadeOut();
+        $mobileMenuToggle.find('a').removeClass('close');
+    });
+    // cart
+      $('.meta-close, .Metafit-overlay').on('click', function (e) {
+          e.preventDefault();
+          $body.removeClass('ltn__utilize-open');
+          $mobileCart.removeClass('ltn__utilize-open');
+          $ltn__utilizeOverlay.fadeOut();
+          $mobileMenuToggle.find('a').removeClass('close');
+      });
+     
+  })();
+});
+      })(jQuery);
+
   
